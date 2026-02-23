@@ -1,0 +1,49 @@
+.hero {
+  padding-block: 149px 105px;
+
+  &__container {
+    max-width: 920px;
+    padding-inline: 20px;
+    margin-inline: auto;
+    text-align: center;
+  }
+
+  &__description {
+    color: var(--color-secondary);
+    font-size: var(--font-size-sm);
+    font-weight: 300;
+    margin-block: 17px 57px;
+  }
+
+  .btn {
+    font-size: var(--font-size-sm);
+    width: 100%;
+    max-width: 439px;
+    margin-inline: auto;
+    padding: 22px 43px;
+    font-weight: 400;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background: var(--btn-primary-bg);
+    }
+  }
+
+  @media (max-width: 768px) {
+    padding-top: 40px;
+    padding-bottom: 20px;
+
+    &__description {
+      font-size: 12px;
+      margin-block: 17px 20px;
+    }
+
+    .btn {
+      font-size: 12px;
+      padding: 12px 20px;
+      max-width: 100%;
+    }
+  }
+}
+
+

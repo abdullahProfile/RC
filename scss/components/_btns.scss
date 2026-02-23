@@ -6,8 +6,9 @@
   display: flex;
   align-items: center;
 
-  &:has(.btn__arrow) {
+  &:has(.arrow)  {
     gap: 22px;
+    justify-content: center;
   }
 }
 
