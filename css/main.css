@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+:root {
+  --btn-primary-bg: #292C3D;
+  --btn-secondary-bg: #A3934E;
+  --gradient-primary: radial-gradient(50% 50% at 50% 50%, #A3934E 0%, #FFFFFF 100%);
+  --gradient-secondary: radial-gradient(50% 50% at 50% 50%, #A3934E 0%, #FFFFFF 100%);
+  --gradient-section: radial-gradient(50% 50% at 50% 50%, #A3934E 0%, #FFFFFF 100%);
+  --bg-primary: #292C3D;
+  --bg-secondary: #A3934E;
+  --color-primary: #292C3D;
+  --color-secondary: #A3934E;
+  --font-size-lg: 65px;
+  --font-size-md: 40px;
+  --font-size-sm: 24px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+.title {
+  font-size: var(--font-size-lg);
+  font-weight: 700;
+  color: var(--primary-color);
+  line-height: 1.5;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 13px 33px;
+  color: #fff;
+  border: 0;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.btn--primary {
+  background-color: var(--primary-btn-bg);
+  font-weight: 700;
+}
+
+.btn--secondary {
+  background-color: var(--secondary-btn-bg);
+  font-weight: 400;
+}
+
+/*# sourceMappingURL=main.css.map */
