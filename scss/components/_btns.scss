@@ -2,18 +2,21 @@
   text-decoration: none;
   padding: 13px 33px;
   color: #fff;
-  border: 0;
   border-radius: 40px;
   display: flex;
   align-items: center;
+
+  &:has(.btn__arrow) {
+    gap: 22px;
+  }
 }
 
 .btn--primary {
-  background-color: var(--primary-btn-bg);
+  background-color: var(--btn-primary-bg);
   font-weight: 700;
 }
 
 .btn--secondary {
-  background-color: var(--secondary-btn-bg);
+  background-color: var(--btn-secondary-bg);
   font-weight: 400;
 }
