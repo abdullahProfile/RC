@@ -5,10 +5,9 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
-    max-width: 1240px;
-    padding-inline: 20px;
+    max-width: 1200px;
+    border-radius: 8px;
     margin-inline: auto;
-    background-image: url(/assets/services-bakground.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -33,7 +32,7 @@
   &__sub-heading {
     font-size: var(--font-size-md);
     font-weight: 700;
-    margin-block: 34px 42px;
+    margin-block: 10px 42px;
     text-transform: capitalize;
   }
 
@@ -48,14 +47,14 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 66px 74px;
     width: 100%;
-    max-width: 806px;
+    max-width: 902px;
     justify-content: center;
-    margin-block: 90px;
+    margin-block: 100px 90px;
   }
 
   .arrow {
     position: absolute;
-    right: 50px;
+    right: 56px;
     top: 50%;
     display: none;
   }
@@ -92,7 +91,7 @@
     color: #fff;
     font-size: 18px;
     font-weight: 400;
-    padding-bottom: 29px;
+    padding-bottom: 10px;
     transition: border-color 0.3s ease;
 
     &:hover {

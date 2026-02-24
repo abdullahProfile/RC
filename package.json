@@ -1,0 +1,27 @@
+{
+  "name": "rc",
+  "version": "1.0.0",
+  "description": "--primary-btn-bg: #292C3D;\r --secondary-btn-bg: #A3934E;\r --font-family: lato;\r --font-size-lg: 65px;\r --font-size-md: 40px;\r --font-size-sm: 24px;\r --primary-gradient: radial-gradient(50% 50% at 50% 50%, #A3934E 0%, #FFFFFF 100%);\r --seconday-gradient: radial-gradient(50% 50% at 50% 50%, #A3934E 0%, #FFFFFF 100%);\r --section-gradient: radial-gradient(50% 50% at 50% 50%, #A3934E 0%, #FFFFFF 100%);\r --primary-bg: #292C3D;\r --secondary-bg: #A3934E;",
+  "main": "index.js",
+
+  "scripts": {
+    "dev": "sass --watch scss/main.scss:css/main.css",
+    "build": "sass scss/main.scss:css/main.css --style=compressed"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdullahProfile/RC.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/abdullahProfile/RC/issues"
+  },
+  "homepage": "https://github.com/abdullahProfile/RC#readme",
+  "devDependencies": {
+    "sass": "^1.97.3"
+  }
+}

@@ -102,7 +102,7 @@ img {
   list-style: none;
   display: flex;
   align-items: center;
-  gap: 36px;
+  gap: 57px;
   text-transform: capitalize;
 }
 .header__list li a {
@@ -218,7 +218,7 @@ img {
   }
 }
 .hero {
-  padding-block: 149px 105px;
+  padding-block: 139px 105px;
 }
 .hero__container {
   max-width: 920px;
@@ -230,12 +230,12 @@ img {
   color: var(--color-secondary);
   font-size: var(--font-size-sm);
   font-weight: 300;
-  margin-block: 17px 57px;
+  margin-block: 27px 86px;
 }
 .hero .btn {
   font-size: var(--font-size-sm);
   width: 100%;
-  max-width: 439px;
+  max-width: max-content;
   margin-inline: auto;
   padding: 22px 43px;
   font-weight: 400;
@@ -265,10 +265,9 @@ img {
   flex-direction: column;
   align-items: center;
   width: 100%;
-  max-width: 1240px;
-  padding-inline: 20px;
+  max-width: 1200px;
+  border-radius: 8px;
   margin-inline: auto;
-  background-image: url(/assets/services-bakground.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -290,7 +289,7 @@ img {
 .services__sub-heading {
   font-size: var(--font-size-md);
   font-weight: 700;
-  margin-block: 34px 42px;
+  margin-block: 10px 42px;
   text-transform: capitalize;
 }
 .services__description {
@@ -303,13 +302,13 @@ img {
   grid-template-columns: repeat(2, 1fr);
   gap: 66px 74px;
   width: 100%;
-  max-width: 806px;
+  max-width: 902px;
   justify-content: center;
-  margin-block: 90px;
+  margin-block: 100px 90px;
 }
 .services .arrow {
   position: absolute;
-  right: 50px;
+  right: 56px;
   top: 50%;
   display: none;
 }
@@ -342,7 +341,7 @@ img {
   color: #fff;
   font-size: 18px;
   font-weight: 400;
-  padding-bottom: 29px;
+  padding-bottom: 10px;
   transition: border-color 0.3s ease;
 }
 .services__cta:hover {
@@ -460,19 +459,19 @@ img {
   color: var(--color-primary);
   font-size: 18px;
   font-weight: 400;
-  padding-bottom: 29px;
+  padding-bottom: 10px;
 }
 .about__actions {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 14px;
+  gap: 43px;
   margin-top: 60px;
 }
 .about .btn {
   font-size: var(--font-size-sm);
   width: 100%;
-  max-width: 439px;
+  max-width: max-content;
   margin-inline: auto;
   padding: 22px 43px;
   font-weight: 400;

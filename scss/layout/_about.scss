@@ -78,7 +78,7 @@
     color: var(--color-primary);
     font-size: 18px;
     font-weight: 400;
-    padding-bottom: 29px;
+    padding-bottom: 10px;
 
   }
 
@@ -86,14 +86,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 14px;
+    gap: 43px;
     margin-top: 60px;
   }
 
   .btn {
     font-size: var(--font-size-sm);
     width: 100%;
-    max-width: 439px;
+    max-width: max-content;
     margin-inline: auto;
     padding: 22px 43px;
     font-weight: 400;
