@@ -1,0 +1,165 @@
+.footer {
+  background-color: var(--color-primary);
+  padding-top: 104px;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1238px;
+    padding-inline: 20px;
+    margin-inline: auto;
+    margin-top: 251px;
+  }
+
+  &__brand {
+    width: 100%;
+    max-width: 334px;
+
+    &-logo {
+      display: block;
+      max-width: 239px;
+    }
+
+    &-logo-img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    &-description {
+      line-height: 2;
+      margin-top: 46px;
+      color: #fff;
+    }
+  }
+
+  &__contact {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 14px;
+
+    &-list {
+      list-style: none;
+      text-align: end;
+    }
+
+    &-item {
+      color: #fff;
+      line-height: 2;
+
+      a {
+        text-decoration: none;
+        color: #fff;
+      }
+    }
+  }
+
+  &__social {
+    display: flex;
+    gap: 29px;
+    align-items: center;
+  }
+
+  &__bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    background: #fff;
+    padding-block: 74px 25px;
+    color: #6A718F;
+
+    &-link {
+      display: flex;
+      gap: 30px;
+
+      a {
+        font-size: 16px;
+        font-weight: 400;
+        text-decoration: none;
+        color: #6A718F;
+      }
+
+    }
+
+    &-copyright {
+      margin-block: 31px;
+      text-align: center;
+    }
+
+    &-disclaimer {
+      max-width: 932px;
+      text-align: center;
+      line-height: 2;
+    }
+  }
+
+  @media (max-width: 768px) {
+    padding-top: 30px;
+
+    &__container {
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      margin-top: 100px;
+      gap: 10px;
+    }
+
+    &__brand {
+
+      &-logo {
+        max-width: 100px;
+        margin-inline: auto;
+      }
+
+      &-description {
+        font-size: 10px;
+        margin-top: 20px;
+        line-height: 1.5;
+      }
+    }
+
+    &__contact {
+      align-items: center;
+
+      &-list {
+        text-align: center;
+      }
+
+      &-item {
+        font-size: 10px;
+      }
+    }
+
+    &__social {
+      gap: 14px;
+    }
+
+    &__badge {
+      width: 100%;
+      max-width: 110px;
+    }
+
+    &__bottom {
+      padding-block: 20px;
+      margin-top: 30px;
+      font-size: 12px;
+      padding-inline: 20px;
+
+      &-link {
+        gap: 15px;
+
+        a {
+          font-size: 12px;
+        }
+      }
+
+      &-copyright {
+        margin-block: 15px;
+      }
+    }
+  }
+}
