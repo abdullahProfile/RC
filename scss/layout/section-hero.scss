@@ -1,4 +1,4 @@
-.about__hero {
+.section__hero {
 
   &-container {
     max-width: 880px;
@@ -13,7 +13,8 @@
   &-description {
     color: var(--color-primary);
     line-height: 1.5;
-    margin-block: 46px 20px;
+    font-weight: 300;
+    margin-block: 50px 41px;
 
     @media (max-width: 768px) {
       font-size: 12px;
