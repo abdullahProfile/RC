@@ -110,8 +110,7 @@
   @media (max-width: 768px) {
 
     &__items {
-      grid-template-columns: 1fr;
-      gap: 20px;
+      gap: 16px;
       place-items: center;
       margin-block: 20px;
     }
