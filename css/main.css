@@ -505,6 +505,22 @@ img {
   margin-inline: auto;
   margin-top: 251px;
 }
+.footer.about-footer {
+  padding-top: 88px;
+  margin-top: 146px;
+}
+.footer.about-footer .footer__container {
+  margin-top: 0;
+}
+@media (max-width: 768px) {
+  .footer.about-footer {
+    padding-top: 30px;
+    margin-top: 30px;
+  }
+  .footer.about-footer .footer__container {
+    margin: 0;
+  }
+}
 .footer__brand {
   width: 100%;
   max-width: 334px;
@@ -865,13 +881,13 @@ img {
 
 .staff {
   width: 100%;
-  max-width: 1383px;
+  max-width: 1424px;
   margin-inline: auto;
   margin-block: 136px 117px;
+  padding-inline: 20px;
 }
 @media (max-width: 1024px) {
   .staff {
-    padding-inline: 20px;
     margin-block: 40px;
   }
 }

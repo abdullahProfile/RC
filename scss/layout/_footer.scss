@@ -11,6 +11,23 @@
     margin-top: 251px;
   }
 
+  &.about-footer {
+    padding-top: 88px;
+    margin-top: 146px;
+
+    .footer__container {
+      margin-top: 0;
+    }
+
+    @media (max-width: 768px) {
+      padding-top: 30px;
+      margin-top: 30px;
+
+      .footer__container {
+        margin: 0;
+      }
+    }
+  }
   &__brand {
     width: 100%;
     max-width: 334px;

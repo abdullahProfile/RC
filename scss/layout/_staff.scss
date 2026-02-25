@@ -1,11 +1,11 @@
 .staff {
   width: 100%;
-  max-width: 1383px;
+  max-width: 1424px;
   margin-inline: auto;
   margin-block: 136px 117px;
+  padding-inline: 20px;
 
   @media (max-width: 1024px) {
-    padding-inline: 20px;
     margin-block: 40px;
   }
 
