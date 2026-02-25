@@ -51,6 +51,10 @@
       a {
         text-decoration: none;
         color: #fff;
+
+        &:hover {
+          color: var(--color-secondary);
+        }
       }
     }
   }
@@ -80,6 +84,10 @@
         font-weight: 400;
         text-decoration: none;
         color: #6A718F;
+
+        &:hover {
+          color: var(--color-secondary);
+        }
       }
 
     }

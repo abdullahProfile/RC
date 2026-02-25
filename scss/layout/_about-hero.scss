@@ -1,0 +1,42 @@
+.about__hero {
+
+  &-container {
+    max-width: 880px;
+    margin-inline: auto;
+    padding-block: 140px;
+
+    @media (max-width: 768px) {
+      padding: 40px 20px;
+    }
+  }
+
+  &-description {
+    color: var(--color-primary);
+    line-height: 1.5;
+    margin-block: 46px 20px;
+
+    @media (max-width: 768px) {
+      font-size: 12px;
+      margin-block: 16px;
+    }
+  }
+
+  .btn {
+    font-size: var(--font-size-sm);
+    width: 100%;
+    max-width: max-content;
+    padding: 22px 43px;
+    font-weight: 400;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background: var(--btn-primary-bg);
+    }
+
+    @media (max-width: 768px) {
+      font-size: 12px;
+      padding: 12px 20px;
+    }
+
+  }
+}

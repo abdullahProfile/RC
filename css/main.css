@@ -137,6 +137,9 @@ img {
   .header__logo {
     max-width: 100px;
   }
+  .header__list {
+    gap: 30px;
+  }
 }
 @media (max-width: 1024px) {
   .header {
@@ -538,6 +541,9 @@ img {
   text-decoration: none;
   color: #fff;
 }
+.footer__contact-item a:hover {
+  color: var(--color-secondary);
+}
 .footer__social {
   display: flex;
   gap: 29px;
@@ -562,6 +568,9 @@ img {
   font-weight: 400;
   text-decoration: none;
   color: #6A718F;
+}
+.footer__bottom-link a:hover {
+  color: var(--color-secondary);
 }
 .footer__bottom-copyright {
   margin-block: 31px;
@@ -627,6 +636,230 @@ img {
   .footer__bottom-disclaimer-text {
     font-size: 10px;
     line-height: 1.5;
+  }
+}
+
+.about__hero-container {
+  max-width: 880px;
+  margin-inline: auto;
+  padding-block: 140px;
+}
+@media (max-width: 768px) {
+  .about__hero-container {
+    padding: 40px 20px;
+  }
+}
+.about__hero-description {
+  color: var(--color-primary);
+  line-height: 1.5;
+  margin-block: 46px 20px;
+}
+@media (max-width: 768px) {
+  .about__hero-description {
+    font-size: 12px;
+    margin-block: 16px;
+  }
+}
+.about__hero .btn {
+  font-size: var(--font-size-sm);
+  width: 100%;
+  max-width: max-content;
+  padding: 22px 43px;
+  font-weight: 400;
+  transition: background-color 0.3s ease;
+}
+.about__hero .btn:hover {
+  background: var(--btn-primary-bg);
+}
+@media (max-width: 768px) {
+  .about__hero .btn {
+    font-size: 12px;
+    padding: 12px 20px;
+  }
+}
+
+.team {
+  width: 100%;
+  max-width: 1276px;
+  margin-inline: auto;
+}
+@media (max-width: 1224px) {
+  .team {
+    padding-inline: 20px;
+  }
+}
+.team__heading {
+  font-size: 35px;
+  font-weight: 700;
+  color: var(--color-primary);
+}
+@media (max-width: 768px) {
+  .team__heading {
+    font-size: 20px;
+  }
+}
+.team__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 113px;
+}
+.team__grid-title {
+  color: var(--color-secondary);
+  font-size: 25px;
+  font-weight: 300;
+  text-transform: capitalize;
+  margin-block: 35px 30px;
+}
+@media (max-width: 1224px) {
+  .team__grid-title {
+    margin-block: 16px;
+  }
+}
+@media (max-width: 1224px) {
+  .team__grid {
+    gap: 20px;
+  }
+}
+@media (max-width: 1024px) {
+  .team__grid {
+    grid-template-columns: 1fr;
+    place-items: center;
+  }
+}
+.team__grid-item {
+  width: 100%;
+  max-width: 350px;
+  text-decoration: none;
+}
+.team__image {
+  width: 100%;
+  max-width: 350px;
+  height: 350px;
+  border-radius: 10px;
+  margin-block: 29px 50px;
+  background: #9A9A9A;
+}
+.team__image:has(img) {
+  height: auto;
+  background: transparent;
+}
+.team__image img {
+  border-radius: 10px;
+}
+@media (max-width: 1224px) {
+  .team__image {
+    max-width: 100%;
+    margin-block: 20px;
+  }
+}
+.team__title {
+  font-size: 30px;
+  font-weight: 700;
+  color: var(--color-primary);
+}
+@media (max-width: 768px) {
+  .team__title {
+    font-size: 14px;
+  }
+}
+.team__sub-title {
+  font-size: var(--font-size-sm);
+  color: var(--color-secondary);
+  font-weight: 400;
+  margin-block: 18px 37px;
+}
+@media (max-width: 1224px) {
+  .team__sub-title {
+    margin-block: 12px;
+  }
+}
+@media (max-width: 768px) {
+  .team__sub-title {
+    font-size: 12px;
+  }
+}
+.team__description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 2;
+  color: var(--color-primary);
+}
+@media (max-width: 768px) {
+  .team__description {
+    font-size: 10px;
+  }
+}
+.team__list {
+  margin-block: 36px 18px;
+  list-style: disc;
+  padding-left: 31px;
+}
+.team__list li {
+  color: var(--color-primary);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 2;
+}
+@media (max-width: 768px) {
+  .team__list li {
+    font-size: 10px;
+  }
+}
+@media (max-width: 1224px) {
+  .team__list {
+    margin-block: 20px;
+  }
+}
+.team__contact {
+  margin-block: 56px 40px;
+}
+.team__contact a {
+  font-size: 18px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 13px;
+  text-decoration: none;
+  color: var(--color-secondary);
+}
+.team__contact a img {
+  width: 20px;
+}
+@media (max-width: 768px) {
+  .team__contact a {
+    font-size: 12px;
+    gap: 5px;
+  }
+  .team__contact a img {
+    width: 10px;
+  }
+}
+@media (max-width: 1224px) {
+  .team__contact {
+    margin-block: 20px;
+  }
+}
+.team .btn {
+  font-size: var(--font-size-sm);
+  width: 100%;
+  max-width: max-content;
+  padding: 22px 33px;
+  font-size: 18px;
+  font-weight: 400;
+  transition: background-color 0.3s ease;
+}
+.team .btn:hover {
+  background: var(--btn-primary-bg);
+}
+@media (max-width: 1224px) {
+  .team .btn {
+    font-size: 12px;
+  }
+}
+@media (max-width: 768px) {
+  .team .btn {
+    padding: 12px 20px;
   }
 }
 
