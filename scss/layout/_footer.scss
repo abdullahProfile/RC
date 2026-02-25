@@ -6,8 +6,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1238px;
-    padding-inline: 20px;
+    max-width: 1198px;
     margin-inline: auto;
     margin-top: 251px;
   }
@@ -38,7 +37,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    gap: 14px;
+    gap: 43px;
 
     &-list {
       list-style: none;
@@ -117,13 +116,14 @@
 
       &-description {
         font-size: 10px;
-        margin-top: 20px;
+        margin-top: 16px;
         line-height: 1.5;
       }
     }
 
     &__contact {
       align-items: center;
+      gap: 16px;
 
       &-list {
         text-align: center;
@@ -144,21 +144,26 @@
     }
 
     &__bottom {
-      padding-block: 20px;
-      margin-top: 30px;
-      font-size: 12px;
+      padding-block: 16px;
+      margin-top: 16px;
+      font-size: 10px;
       padding-inline: 20px;
 
       &-link {
         gap: 15px;
 
         a {
-          font-size: 12px;
+          font-size: 10px;
         }
       }
 
       &-copyright {
-        margin-block: 15px;
+        margin-block: 12px;
+      }
+
+      &-disclaimer-text {
+        font-size: 10px;
+        line-height: 1.5;
       }
     }
   }

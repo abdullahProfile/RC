@@ -111,33 +111,37 @@
 
     &__items {
       grid-template-columns: 1fr;
-      gap: 40px;
+      gap: 20px;
       place-items: center;
-      margin-block: 40px;
+      margin-block: 20px;
     }
 
     &__container {
-      padding-block: 40px 20px;
+      padding: 20px 10px;
+    }
+
+    &__heading  {
+      font-size: 14px;
     }
 
     &__sub-heading {
       font-size: var(--font-size-sm);
-      margin-block: 20px;
+      margin-block: 14px;
     }
 
     &__description {
-      font-size: 14px;
+      font-size: 12px;
+      line-height: 1.5;
     }
 
     &__link {
-      font-size: 20px;
-      padding-block: 22px;
+      font-size: 16px;
+      padding-block: 16px;
       max-width: 100%;
     }
 
     &__cta {
       font-size: 14px;
-      padding-bottom: 16px;
     }
 
     &__logo {
