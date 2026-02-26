@@ -57,6 +57,11 @@
     right: 56px;
     top: 50%;
     display: none;
+
+    @media (max-width: 768px) {
+      right: 10px;
+      top: 42%;
+    }
   }
 
   &__link {

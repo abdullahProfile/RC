@@ -47,7 +47,7 @@
     text-decoration: none;
     padding: 37px 25px 25px 43px;
     border-radius: 10px;
-    cursor: pointer;
+    position: relative;
 
     @media (max-width: 768px) {
       max-width: 100%;
@@ -61,7 +61,7 @@
         color: #fff;
       }
 
-      .feature__card-link svg path {
+      svg path {
         fill: #fff;
       }
     }
@@ -89,11 +89,10 @@
       }
     }
 
-    &-link {
-      text-decoration: none;
-      background: transparent;
-      display: flex;
-      justify-content: end;
+    &-arrow {
+      position: absolute;
+      right: 23px;
+      bottom: 25px;
     }
   }
 }
