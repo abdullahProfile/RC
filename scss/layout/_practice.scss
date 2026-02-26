@@ -1,0 +1,86 @@
+.practice {
+  width: 100%;
+  max-width: 1063px;
+  margin-inline: auto;
+  padding-block: 139px 145px;
+
+  @media (max-width: 768px) {
+    padding-inline: 20px;
+    padding-block: 40px;
+  }
+
+  &__container {
+    padding-top: 109px;
+
+    @media (max-width: 768px) {
+      padding-top: 20px;
+    }
+
+    p {
+      color: var(--color-primary);
+
+      @media (max-width: 768px) {
+        font-size: 12px;
+      }
+    }
+  }
+
+  &__intro {
+    margin-bottom: 38px;
+
+    @media (max-width: 768px) {
+      margin-bottom: 20px;
+    }
+
+    p {
+      line-height: 1.5;
+    }
+
+    &-text {
+      margin-bottom: 15px;
+    }
+  }
+
+  &__heading {
+    color: var(--color-secondary);
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 38px;
+
+    @media (max-width: 768px) {
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+  }
+
+  &__list {
+    margin-bottom: 15px;
+    padding-left: 20px;
+    line-height: 1.5;
+
+    @media (max-width: 768px) {
+      font-size: 12px;
+      line-height: 2;
+    }
+  }
+
+  &__documents {
+    margin-top: 80px;
+
+    @media (max-width: 768px) {
+      margin-top: 20px;
+    }
+  }
+
+  &__comparison {
+    margin-top: 57px;
+
+    @media (max-width: 768px) {
+      margin-top: 20px;
+    }
+
+    p {
+      margin-bottom: 15px;
+    }
+  }
+}

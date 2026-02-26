@@ -149,7 +149,7 @@ img {
     position: relative;
     max-width: 100%;
     padding-right: 40px;
-    padding-left: 33px;
+    padding-left: 20px;
   }
   .header .btn--secondary {
     font-size: 12px;
@@ -1084,6 +1084,227 @@ img {
   position: absolute;
   right: 23px;
   bottom: 25px;
+}
+
+.practice {
+  width: 100%;
+  max-width: 1063px;
+  margin-inline: auto;
+  padding-block: 139px 145px;
+}
+@media (max-width: 768px) {
+  .practice {
+    padding-inline: 20px;
+    padding-block: 40px;
+  }
+}
+.practice__container {
+  padding-top: 109px;
+}
+@media (max-width: 768px) {
+  .practice__container {
+    padding-top: 20px;
+  }
+}
+.practice__container p {
+  color: var(--color-primary);
+}
+@media (max-width: 768px) {
+  .practice__container p {
+    font-size: 12px;
+  }
+}
+.practice__intro {
+  margin-bottom: 38px;
+}
+@media (max-width: 768px) {
+  .practice__intro {
+    margin-bottom: 20px;
+  }
+}
+.practice__intro p {
+  line-height: 1.5;
+}
+.practice__intro-text {
+  margin-bottom: 15px;
+}
+.practice__heading {
+  color: var(--color-secondary);
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 38px;
+}
+@media (max-width: 768px) {
+  .practice__heading {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+}
+.practice__list {
+  margin-bottom: 15px;
+  padding-left: 20px;
+  line-height: 1.5;
+}
+@media (max-width: 768px) {
+  .practice__list {
+    font-size: 12px;
+    line-height: 2;
+  }
+}
+.practice__documents {
+  margin-top: 80px;
+}
+@media (max-width: 768px) {
+  .practice__documents {
+    margin-top: 20px;
+  }
+}
+.practice__comparison {
+  margin-top: 57px;
+}
+@media (max-width: 768px) {
+  .practice__comparison {
+    margin-top: 20px;
+  }
+}
+.practice__comparison p {
+  margin-bottom: 15px;
+}
+
+.consultation__container {
+  width: 100%;
+  max-width: 728px;
+  margin-inline: auto;
+}
+@media (max-width: 768px) {
+  .consultation__container {
+    padding-inline: 20px;
+  }
+}
+.consultation__container p {
+  color: var(--color-primary);
+  margin-bottom: 20px;
+}
+@media (max-width: 768px) {
+  .consultation__container p {
+    font-size: 12px;
+    margin-bottom: 16px;
+  }
+}
+.consultation__title {
+  font-size: var(--font-size-md);
+  color: var(--color-primary);
+  margin-bottom: 38px;
+}
+@media (max-width: 768px) {
+  .consultation__title {
+    font-size: var(--font-size-sm);
+    margin-bottom: 20px;
+  }
+}
+.consultation__contact {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 52px;
+}
+@media (max-width: 768px) {
+  .consultation__contact {
+    margin-bottom: 24px;
+  }
+}
+.consultation__contact a {
+  color: var(--color-primary);
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.consultation__contact a img {
+  width: 18px;
+}
+@media (max-width: 768px) {
+  .consultation__contact a {
+    font-size: 12px;
+  }
+  .consultation__contact a img {
+    width: 14px;
+  }
+}
+.consultation__fields {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 31px 27px;
+}
+@media (max-width: 768px) {
+  .consultation__fields {
+    gap: 18px 12px;
+  }
+}
+.consultation__fields input {
+  padding-block: 19px;
+  padding-left: 29px;
+  background: #f3f3f3;
+  width: 100%;
+  max-width: 350px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  color: var(--color-primary);
+  font-size: 16px;
+  font-weight: 400;
+}
+.consultation__fields input::placeholder {
+  color: var(--color-primary);
+  font-size: 16px;
+  font-weight: 400;
+}
+@media (max-width: 768px) {
+  .consultation__fields input {
+    font-size: 12px;
+    padding-block: 12px;
+    padding-left: 18px;
+  }
+  .consultation__fields input::placeholder {
+    font-size: 12px;
+  }
+}
+.consultation textarea {
+  width: 100%;
+  font-size: 16px;
+  color: var(--color-primary);
+  padding-top: 19px;
+  padding-left: 29px;
+  border-radius: 10px;
+  margin-block: 31px;
+  border: none;
+  outline: none;
+  background: #f3f3f3;
+  resize: none;
+}
+@media (max-width: 768px) {
+  .consultation textarea {
+    margin-block: 18px;
+    padding-top: 10px;
+    padding-left: 16px;
+  }
+}
+.consultation .btn {
+  font-size: 16px;
+  font-weight: 700;
+  border: 0;
+  margin-left: auto;
+  border-radius: 10px;
+  padding-inline: 124px;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .consultation .btn {
+    padding-inline: 60px;
+    font-size: 12px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
