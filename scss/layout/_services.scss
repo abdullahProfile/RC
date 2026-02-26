@@ -59,8 +59,9 @@
     display: none;
 
     @media (max-width: 768px) {
-      right: 10px;
-      top: 42%;
+      right: 20px;
+      top: 43%;
+      width: 10px;
     }
   }
 
@@ -134,12 +135,11 @@
     }
 
     &__description {
-      font-size: 12px;
-      line-height: 1.5;
+      font-size: 10px;
     }
 
     &__link {
-      font-size: 16px;
+      font-size: 14px;
       padding-block: 16px;
       max-width: 100%;
     }
