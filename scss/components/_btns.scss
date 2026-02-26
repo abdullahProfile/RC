@@ -5,6 +5,7 @@
   border-radius: 40px;
   display: flex;
   align-items: center;
+  max-width: max-content;
 
   &:has(.arrow)  {
     gap: 22px;
