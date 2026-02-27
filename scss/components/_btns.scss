@@ -6,6 +6,7 @@
   display: flex;
   align-items: center;
   max-width: max-content;
+  font-family: inherit;
 
   &:has(.arrow)  {
     gap: 22px;

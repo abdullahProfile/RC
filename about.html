@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="./css/main.css">
   <title>About</title>
 </head>
@@ -40,19 +41,19 @@
 
   <section class="section__hero">
     <div class="section__hero-container">
-      <h1 class="title">About Our Firm</h1>
+      <h1 class="title" data-aos="fade-up" data-aos-duration="500" data-aos-delay="100">About Our Firm</h1>
 
-      <p class="section__hero-description">Rosenstein Chicatelli PLLC is a leading real estate law firm in the Greater Capital Region, providing trusted legal counsel through experience, dedication, and client-focused service. Our attorneys are highly skilled in residential and commercial real estate transactions, elder law, estate planning, and small business advisement, supported by a responsive team committed to exceptional client care. Through our affiliate, Marathon Title Agency, Inc., an agent for Chicago Title Insurance Company, we also offer reliable title insurance services to help protect our clients’ real estate investments.</p>
+      <p class="section__hero-description" data-aos="fade-up" data-aos-duration="500" data-aos-delay="200">Rosenstein Chicatelli PLLC is a leading real estate law firm in the Greater Capital Region, providing trusted legal counsel through experience, dedication, and client-focused service. Our attorneys are highly skilled in residential and commercial real estate transactions, elder law, estate planning, and small business advisement, supported by a responsive team committed to exceptional client care. Through our affiliate, Marathon Title Agency, Inc., an agent for Chicago Title Insurance Company, we also offer reliable title insurance services to help protect our clients’ real estate investments.</p>
 
       <a href="#" class="btn btn--secondary">Schedule a Free Consultation <span class="arrow"><img src="./assets/icons/arrow.svg" alt="Schedule a Free Consultatio"></span></a>
     </div>
   </section>
 
-  <section class="team">
+  <section class="team" id="team">
     <h2 class="team__heading">Our Team:</h2>
 
     <div class="team__grid">
-      <article class="team__grid-item">
+      <article class="team__grid-item" data-aos="fade-up" data-aos-duration="500" data-aos-delay="300">
         <p class="team__grid-title">Partner:</p>
 
         <div class="team__grid-body">
@@ -94,7 +95,7 @@
         </div>
       </article>
 
-       <article class="team__grid-item">
+       <article class="team__grid-item" data-aos="fade-up" data-aos-duration="500" data-aos-delay="400">
         <p class="team__grid-title">Attorney:</p>
 
         <div class="team__grid-body">
@@ -136,7 +137,7 @@
         </div>
       </article>
 
-      <article class="team__grid-item">
+      <article class="team__grid-item" data-aos="fade-up" data-aos-duration="500" data-aos-delay="500">
         <p class="team__grid-title">Of Counsel:</p>
 
         <div class="team__grid-body">
@@ -332,5 +333,9 @@
     </div>
   </footer>
 </body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 <script src="./main.js"></script>
 </html>

@@ -1,4 +1,5 @@
 .team {
+  scroll-margin-top: 100px;
   width: 100%;
   max-width: 1276px;
   margin-inline: auto;
@@ -51,6 +52,14 @@
       width: 100%;
       max-width: 350px;
       text-decoration: none;
+      display: flex;
+      flex-direction: column;
+    }
+
+    &-body {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
     }
   }
 
@@ -142,6 +151,7 @@
     flex-direction: column;
     gap: 12px;
     margin-bottom: 38px;
+    margin-top: auto;
 
     a {
       color: var(--color-secondary);

@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="./css/main.css">
   <title>Estate Planing</title>
 </head>
@@ -39,7 +40,7 @@
   </header>
 
   <section class="practice">
-    <h1 class="title">Estate Planning</h1>
+    <h1 class="title" data-aos="fade-up" data-aos-duration="500" data-aos-delay="100">Estate Planning</h1>
 
     <div class="practice__container">
       <div class="practice__intro">
@@ -177,5 +178,9 @@
     </div>
   </footer>
 </body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 <script src="./main.js"></script>
 </html>

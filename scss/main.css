@@ -24,7 +24,8 @@ body {
 img {
   display: block;
   width: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .title {
@@ -45,6 +46,7 @@ img {
   border-radius: 40px;
   display: flex;
   align-items: center;
+  max-width: -moz-max-content;
   max-width: max-content;
   font-family: inherit;
 }
@@ -213,6 +215,7 @@ img {
 .hero .btn {
   font-size: var(--font-size-sm);
   width: 100%;
+  max-width: -moz-max-content;
   max-width: max-content;
   margin-inline: auto;
   padding: 22px 43px;
@@ -455,6 +458,7 @@ img {
 .about .btn {
   font-size: var(--font-size-sm);
   width: 100%;
+  max-width: -moz-max-content;
   max-width: max-content;
   margin-inline: auto;
   padding: 22px 43px;
@@ -696,6 +700,7 @@ img {
 .section__hero .btn {
   font-size: var(--font-size-sm);
   width: 100%;
+  max-width: -moz-max-content;
   max-width: max-content;
   padding: 22px 43px;
   font-weight: 400;
@@ -891,6 +896,7 @@ img {
 .team .btn {
   font-size: var(--font-size-sm);
   width: 100%;
+  max-width: -moz-max-content;
   max-width: max-content;
   padding: 22px 33px;
   font-size: 18px;
@@ -1089,6 +1095,7 @@ img {
 .feature__card {
   background: var(--color-primary);
   width: 100%;
+  max-width: -moz-max-content;
   max-width: max-content;
   text-decoration: none;
   padding: 37px 23px 25px 43px;
@@ -1330,6 +1337,11 @@ img {
   font-size: 16px;
   font-weight: 400;
 }
+.consultation__fields input::-moz-placeholder {
+  color: var(--color-primary);
+  font-size: 16px;
+  font-weight: 400;
+}
 .consultation__fields input::placeholder {
   color: var(--color-primary);
   font-size: 16px;
@@ -1341,6 +1353,9 @@ img {
     padding-block: 12px;
     padding-left: 12px;
     border-radius: 4px;
+  }
+  .consultation__fields input::-moz-placeholder {
+    font-size: 12px;
   }
   .consultation__fields input::placeholder {
     font-size: 12px;
@@ -1448,5 +1463,3 @@ img {
     font-size: 12px;
   }
 }
-
-/*# sourceMappingURL=main.css.map */

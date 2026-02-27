@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="./css/main.css">
   <title>Practice Areas</title>
 </head>
@@ -40,9 +41,9 @@
 
   <section class="section__hero">
     <div class="section__hero-container">
-      <h1 class="title">How We Can Help</h1>
+      <h1 class="title" data-aos="fade-up" data-aos-duration="500" data-aos-delay="100">How We Can Help</h1>
 
-      <p class="section__hero-description">Rosenstein Chicatelli PLLC is a leading real estate law firm in the Greater Capital Region, providing trusted legal counsel through experience, dedication, and client-focused service. Our attorneys are highly skilled in residential and commercial real estate transactions, elder law, estate planning, and small business advisement, supported by a responsive team committed to exceptional client care. Through our affiliate, Marathon Title Agency, Inc., an agent for Chicago Title Insurance Company, we also offer reliable title insurance services to help protect our clients’ real estate investments.</p>
+      <p class="section__hero-description" data-aos="fade-up" data-aos-duration="500" data-aos-delay="200">Rosenstein Chicatelli PLLC is a leading real estate law firm in the Greater Capital Region, providing trusted legal counsel through experience, dedication, and client-focused service. Our attorneys are highly skilled in residential and commercial real estate transactions, elder law, estate planning, and small business advisement, supported by a responsive team committed to exceptional client care. Through our affiliate, Marathon Title Agency, Inc., an agent for Chicago Title Insurance Company, we also offer reliable title insurance services to help protect our clients’ real estate investments.</p>
 
       <a href="#" class="btn btn--secondary">Schedule a Free Consultation <span class="arrow"><img src="./assets/icons/arrow.svg" alt="Schedule a Free Consultatio"></span></a>
     </div>
@@ -52,7 +53,7 @@
     <h3 class="feature__title">Practice Areas:</h3>
 
     <div class="feature__grid">
-      <a href="./estate.html" target="_parent" class="feature__card">
+      <a href="/estate.html" class="feature__card" data-aos="fade-up" data-aos-duration="500" data-aos-delay="300">
         <h4 class="feature__card-title">Estate Planning</h4>
 
         <p class="feature__card-description">Wills, trusts, powers of attorney, healthcare proxies, and probate-avoidance strategies.</p>
@@ -62,7 +63,7 @@
         </svg>
       </a>
 
-      <a href="#" class="feature__card">
+      <a href="#" class="feature__card" data-aos="fade-up" data-aos-duration="500" data-aos-delay="400">
         <h4 class="feature__card-title">Elder Law</h4>
 
         <p class="feature__card-description">Long-term care planning, Medicare/Medicaid planning, guardianship, and social needs trusts.</p>
@@ -72,7 +73,7 @@
         </svg>
       </a>
 
-      <a href="#" class="feature__card">
+      <a href="#" class="feature__card" data-aos="fade-up" data-aos-duration="500" data-aos-delay="500">
         <h4 class="feature__card-title">Real Estate</h4>
 
         <p class="feature__card-description">Residential and commercial transactions, closings, refinancing, and property acquisitions.</p>
@@ -82,7 +83,7 @@
         </svg>
       </a>
 
-      <a href="#" class="feature__card">
+      <a href="#" class="feature__card" data-aos="fade-up" data-aos-duration="500" data-aos-delay="600">
         <h4 class="feature__card-title">Evictions</h4>
 
         <p class="feature__card-description">Landlord representation for eviction proceedings throughout the Capital Region.</p>
@@ -92,7 +93,7 @@
         </svg>
       </a>
 
-      <a href="#" class="feature__card">
+      <a href="#" class="feature__card" data-aos="fade-up" data-aos-duration="500" data-aos-delay="700">
         <h4 class="feature__card-title">Small Business</h4>
 
         <p class="feature__card-description">Business formation, operating agreements, succession planning, and LLC/corporate formation.</p>
@@ -102,7 +103,7 @@
         </svg>
       </a>
 
-      <a href="#" class="feature__card">
+      <a href="#" class="feature__card" data-aos="fade-up" data-aos-duration="500" data-aos-delay="800">
         <h4 class="feature__card-title">Business Succession</h4>
 
         <p class="feature__card-description">Succession planning, buy-sell agreements, and business transitions.</p>
@@ -112,7 +113,7 @@
         </svg>
       </a>
 
-      <a href="#" class="feature__card">
+      <a href="#" class="feature__card" data-aos="fade-up" data-aos-duration="500" data-aos-delay="900">
         <h4 class="feature__card-title">Traffic Matters</h4>
 
         <p class="feature__card-description">Legal representation for traffic violations.</p>
@@ -121,7 +122,6 @@
           <path d="M14.4867 17.6933L13.3083 16.4933L20.1217 9.68H0V8.01333H20.1217L13.3083 1.2L14.4867 0L23.3333 8.84667L14.4867 17.6933Z" fill="#A3934E"/>
         </svg>
       </a>
-
     </div>
   </section>
 
@@ -172,5 +172,9 @@
     </div>
   </footer>
 </body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 <script src="./main.js"></script>
 </html>
