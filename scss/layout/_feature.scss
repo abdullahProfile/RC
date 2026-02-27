@@ -16,7 +16,7 @@
     font-size: var(--font-size-md);
     color: var(--color-primary);
     font-weight: 700;
-    margin-bottom: 67px;
+    margin-bottom: 62px;
 
     @media (max-width: 768px) {
       font-size: var(--font-size-sm);
@@ -45,7 +45,7 @@
     width: 100%;
     max-width: max-content;
     text-decoration: none;
-    padding: 37px 25px 25px 43px;
+    padding: 37px 23px 25px 43px;
     border-radius: 10px;
     position: relative;
 
@@ -70,9 +70,11 @@
       color: var(--color-secondary);
       font-size: 28px;
       font-weight: 700;
+      margin-bottom: 43px;
 
       @media (max-width: 768px) {
         font-size: 20px;
+        margin-bottom: 20px;
       }
     }
 
@@ -81,11 +83,11 @@
       line-height: 1.5;
       font-weight: 400;
       color: #fff;
-      margin-block: 50px 65px;
+      margin-bottom: 52px;
 
       @media (max-width: 768px) {
         font-size: 14px;
-        margin-block: 20px 30px;
+        margin-bottom: 20px;
       }
     }
 

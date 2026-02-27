@@ -1,9 +1,17 @@
 .section__hero {
 
+  .title {
+    margin-bottom: 36px;
+
+    @media (max-width: 768px) {
+      margin-bottom: 18px;
+    }
+  }
+
   &-container {
     max-width: 880px;
     margin-inline: auto;
-    padding-block: 140px;
+    padding-block: 123px;
 
     @media (max-width: 768px) {
       padding: 40px 20px;
@@ -14,11 +22,11 @@
     color: var(--color-primary);
     line-height: 1.5;
     font-weight: 300;
-    margin-block: 50px 41px;
+    margin-bottom: 49px;
 
     @media (max-width: 768px) {
       font-size: 12px;
-      margin-block: 16px;
+      margin-bottom: 16px;
     }
   }
 
