@@ -1563,4 +1563,41 @@ img {
   }
 }
 
+.legals {
+  width: 100%;
+  max-width: 1094px;
+  margin-inline: auto;
+  color: var(--color-primary);
+  padding: 139px 0 50px 37px;
+}
+@media (max-width: 1024px) {
+  .legals {
+    padding: 100px 0 30px 20px;
+  }
+}
+@media (max-width: 768px) {
+  .legals {
+    padding: 40px 20px 20px 20px;
+  }
+  .legals p {
+    font-size: 10px;
+  }
+}
+.legals p {
+  line-height: 1.5;
+}
+.legals .title {
+  margin-bottom: 155px;
+}
+@media (max-width: 1024px) {
+  .legals .title {
+    margin-bottom: 80px;
+  }
+}
+@media (max-width: 768px) {
+  .legals .title {
+    margin-bottom: 40px;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */
