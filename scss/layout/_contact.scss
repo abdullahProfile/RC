@@ -1,0 +1,118 @@
+.contact {
+  color: var(--color-primary);
+  padding-top: 139px;
+  width: 100%;
+  max-width: 856px;
+  margin-inline: auto;
+
+  @media (max-width: 1024px) {
+    padding-top: 80px;
+    padding-inline: 20px;
+  }
+
+  @media (max-width: 768px) {
+    padding-top: 40px;
+  }
+
+  .title {
+    margin-bottom: 168px;
+
+    @media (max-width: 1024px) {
+      margin-bottom: 80px;
+    }
+
+    @media (max-width: 768px) {
+      margin-bottom: 40px;
+    }
+  }
+
+  a {
+    color: var(--color-primary);
+    text-decoration: none;
+  }
+
+  &__content {
+    width: 100%;
+    max-width: 728px;
+    margin-inline: auto;
+  }
+
+  &__logo {
+
+    img {
+      max-width: 209px;
+
+      @media (max-width: 768px) {
+        max-width: 100px;
+      }
+    }
+  }
+
+  &__text {
+    margin-bottom: 20px;
+
+    @media (max-width: 768px) {
+      margin-bottom: 12px;
+      font-size: 10px;
+    }
+  }
+
+  &__location {
+    margin-block: 47px;
+
+    @media (max-width: 768px) {
+      margin-block: 20px;
+    }
+
+    &-text {
+      margin-bottom: 26px;
+
+      @media (max-width: 768px) {
+        margin-bottom: 18px;
+      }
+
+      p {
+        font-size: 16px;
+        line-height: 1.5;
+
+        @media (max-width: 768px) {
+          font-size: 10px;
+        }
+      }
+    }
+
+    &-image {
+
+      img {
+        border-radius: 10px;
+      }
+    }
+  }
+
+  &__contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 52px;
+
+    @media (max-width: 768px) {
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+
+    &-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+
+      @media (max-width: 768px) {
+        gap: 8px;
+        font-size: 12px;
+
+        svg {
+          width: 12px;
+        }
+      }
+    }
+  }
+}

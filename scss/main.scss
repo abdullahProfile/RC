@@ -1,6 +1,7 @@
 @use "base/variables" as *;
 @use 'base/global' as *;
 @use "components/btns" as *;
+@use "components/form" as *;
 
 //layout
 @use "layout/header" as *;
@@ -15,3 +16,4 @@
 @use "layout/practice" as *;
 @use "layout/consultation" as *;
 @use "layout/faqs" as *;
+@use "layout/contact" as *;

@@ -3,55 +3,153 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="./css/main.css">
   <title>Contact Us</title>
 </head>
 <body>
-  <div class="under-construction">
-    <div class="under-construction__content">
-      <a href="./index.html" class="under-construction__logo">
+  <header class="header">
+    <div class="header__container">
+      <a href="./index.html" class="header__logo">
         <img src="./assets/logo.svg" alt="logo">
       </a>
-      <h1 class="under-construction__title">Under Construction</h1>
-      <p class="under-construction__text">This page is currently being updated. Please check back soon.</p>
-      <a href="./index.html" class="btn btn--secondary">Back to Home</a>
+
+      <nav class="header__menu">
+        <ul class="header__list">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./practice.html">Practice Areas</a></li>
+          <li><a href="./faqs.html">FAQs</a></li>
+          <li><a href="./contact.html" class="active">Contact</a></li>
+        </ul>
+
+        <button class="header__menu-close">
+          <img src="./assets/icons/close_menu.svg" alt="close menu">
+        </button>
+      </nav>
+
+      <div class="header__actions">
+        <a href="#" class="btn btn--primary">(518) 452-6979</a>
+        <a href="#" class=" btn btn--secondary">Clio for Clients</a>
+      </div>
+
+      <button class="header__menu-open">
+        <img src="./assets/icons/open_menu.svg" alt="open menu">
+      </button>
     </div>
-  </div>
+  </header>
 
-  <style>
-    .under-construction {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      min-height: 100vh;
-      text-align: center;
-      padding: 2rem;
-    }
+  <section class="contact">
+    <h1 class="title" data-aos="fade-up" data-aos-duration="500" data-aos-delay="100">Contact Us</h1>
 
-    .under-construction__content {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 1.5rem;
-      max-width: 500px;
-    }
+    <div class="contact__content">
+        <a href="./index.html" class="contact__logo">
+          <img src="./assets/logo.svg" alt="company logo">
+        </a>
 
-    .under-construction__logo img {
-      height: 50px;
-    }
+        <div class="contact__location">
+          <div class="contact__location-text">
+            <p>501 New Karner Road, Suite 6</p>
+            <p>Albany, New York 12205</p>
+          </div>
 
-    .under-construction__title {
-      font-size: 2.5rem;
-      color: #1B2D4F;
-      margin: 0;
-    }
+          <div class="contact__location-image">
+            <img src="./assets/map.png" alt="our store map location">
+          </div>
+        </div>
 
-    .under-construction__text {
-      font-size: 1.125rem;
-      color: #555;
-      margin: 0;
-      line-height: 1.6;
-    }
-  </style>
+        <p class="contact__text">Feel free to complete the form below, e-mail, or call our office.</p>
+
+        <div class="contact__info">
+          <div class="contact__contacts">
+            <a href="#" class="contact__contacts-item">
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10.7358 18.1931C10.4241 18.0546 10.1173 17.9055 9.81579 17.7461C8.3138 16.8971 6.93446 15.8474 5.71579 14.6261C4.13389 13.1371 2.83461 11.374 1.88079 9.42208C1.37055 8.37313 1.0258 7.25151 0.85879 6.09708C0.63232 4.93109 0.76122 3.72395 1.22879 2.63208C1.51779 2.16208 1.86579 1.73208 2.26379 1.35308C2.42529 1.17191 2.62176 1.02529 2.84139 0.922004C3.06101 0.818722 3.29925 0.76092 3.54179 0.752075C4.04679 0.828075 4.50379 1.09208 4.81979 1.49408C5.50979 2.26108 6.24979 2.95108 6.97879 3.68008C7.26579 3.92608 7.44479 4.27508 7.47679 4.65208C7.46479 4.96908 7.34279 5.27208 7.13179 5.50908C6.88979 5.81608 6.59579 6.09708 6.31479 6.39108C6.14537 6.55486 6.0158 6.75534 5.93605 6.97708C5.8563 7.19882 5.8285 7.4359 5.85479 7.67008C6.0312 8.21763 6.33285 8.7165 6.73579 9.12708C7.22179 9.79208 7.70679 10.4071 8.25579 11.0581C9.24324 12.1985 10.4136 13.1667 11.7188 13.9231C11.8993 14.0592 12.1127 14.145 12.3372 14.1719C12.5616 14.1988 12.7892 14.1657 12.9968 14.0761C13.4313 13.8342 13.8169 13.5133 14.1338 13.1301C14.4088 12.7951 14.8028 12.5801 15.2328 12.5291C15.6158 12.5491 15.9768 12.7131 16.2428 12.9891C16.5868 13.2831 16.8808 13.6291 17.2008 13.9481C17.5198 14.2681 17.7758 14.4981 18.0438 14.7921C18.3651 15.0754 18.6675 15.3781 18.9508 15.7001C19.1708 15.9841 19.2748 16.3401 19.2448 16.6971C19.1308 17.1244 18.8847 17.5048 18.5418 17.7841C18.0596 18.2859 17.4737 18.6763 16.8249 18.9281C16.1762 19.18 15.4802 19.2871 14.7858 19.2421C13.3799 19.1623 12.0036 18.8058 10.7358 18.1931Z" stroke="#A3934E" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"/>
+              </svg>
+
+              <span class="consultation__contact-text">(518) 452-6979</span>
+            </a>
+
+            <a href="#" class="contact__contacts-item">
+              <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M16.25 14.5V15H3.25V14.5H16.25ZM1.07422 13.25C1.24234 13.8139 1.68612 14.2577 2.25 14.4258V14.9404C1.84037 14.8469 1.46103 14.6427 1.15918 14.3408C0.857276 14.0389 0.652085 13.6597 0.558594 13.25H1.07422ZM18.9414 13.25C18.8479 13.6597 18.6427 14.0389 18.3408 14.3408C18.039 14.6427 17.6596 14.8469 17.25 14.9404V14.4258C17.8139 14.2577 18.2577 13.8139 18.4258 13.25H18.9414ZM19 2V12.25H18.5V2H19ZM1 2V12.25H0.5V2H1ZM17.5 0.5V1H2V0.5H17.5Z" fill="#292C3D" stroke="#A3934E"/>
+                <path d="M0.75 0.75L9.75 9.75L18.75 0.75" stroke="#A3934E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+
+              <span class="consultation__contact-text">LChicatelli@nyrclaw.com</span>
+            </a>
+          </div>
+
+          <form action="submit" class="form">
+
+            <div class="form__fields">
+              <input type="text" placeholder="First Name">
+              <input type="text" placeholder="Last Name">
+
+              <input type="tel" placeholder="Phone">
+              <input type="email" placeholder="E-mail">
+            </div>
+
+            <textarea rows="5">How may we help ?</textarea>
+
+            <button type="submit" class="btn btn--secondary">Submit Form</button>
+
+          </form>
+        </div>
+
+    </div>
+  </section>
+
+  <footer class="footer footer-secondary">
+    <div class="footer__container">
+
+      <div class="footer__brand">
+        <a href="#" class="footer__brand-logo">
+          <img src="./assets/logo-2.svg" alt="company logo" class="footer__brand-logo-img">
+        </a>
+
+        <p class="footer__brand-description">Practical counsel for estate planning, real estate, and business matters across New York's Capital District</p>
+      </div>
+
+      <a href="#" class="footer__badge">
+        <img src="./assets/logo-3.svg" alt="operated by us Marine Veteran logo">
+      </a>
+
+      <div class="footer__contact">
+        <ul class="footer__contact-list">
+          <li class="footer__contact-item">440 New Karner Rd, Albany, NY 12205</li>
+          <li class="footer__contact-item"><a href="tel:(518) 452-6979">(518) 452-6979</a></li>
+          <li class="footer__contact-item"><a href="mailto:LChicatelli@nyrclaw.com">LChicatelli@nyrclaw.com</a></li>
+        </ul>
+
+        <div class="footer__social">
+          <a href="#" class="footer__social-link"><img src="./assets/icons/linkdln.svg" alt="linkedin icon"></a>
+          <a href="#" class="footer__social-link"><img src="./assets/icons/facebook.svg" alt="facebook icon"></a>
+          <a href="#" class="footer__social-link"><img src="./assets/icons/instagram.svg" alt="instagram icon"></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer__bottom">
+      <div class="footer__bottom-header">
+        <div class="footer__bottom-link">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Use</a>
+          <a href="#">Disclaimer</a>
+        </div>
+        <p class="footer__bottom-copyright">© 2025 Rosenstein Chicatelli, PLLC </p>
+      </div>
+
+      <div class="footer__bottom-disclaimer">
+        <p class="footer__bottom-disclaimer-text">Disclaimer: The information on this site is for general information only and is not legal advice. Viewing this site does not create an attorney-client relationship. Past results do not guarantee similar outcomes. Attorney Advertising (NY).</p>
+      </div>
+    </div>
+  </footer>
 </body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<script src="./main.js"></script>
 </html>
